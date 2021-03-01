@@ -1,0 +1,66 @@
+/* Regular Image Hover */
+
+.food-hover {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 80%;
+	margin: auto;
+}
+
+.food-hover img {width: 100%;}
+
+
+
+ .cherry, .salad, .coffee, .cheese {
+        position: relative;
+        display: inline-block;
+}
+
+
+.cherry .img-top, .salad .img-top, .coffee .img-top, .cheese .img-top{
+        display: none;
+
+    }
+    .cherry:hover .img-top, .salad:hover .img-top, .coffee:hover .img-top, .cheese:hover .img-top {
+        display: inline;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+
+/* END OF Regular Image Hover */
+
+
+/* Text Hover */
+
+.food-hover2 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 80%;
+	margin: auto;
+}
+
+.food-hover2 img {width: 100%;}
+
+
+
+ .cherry2, .salad2, .coffee2, .cheese2 {
+        position: relative;
+        display: inline-block;
+}
+
+
+.cherry2 .text-top, .salad2 .text-top, .coffee2 .text-top, .cheese2 .text-top{
+        display: none;
+
+    }
+    .cherry2:hover .text-top, .salad2:hover .text-top, .coffee2:hover .text-top, .cheese2:hover .text-top {
+        display: inline;
+        position: absolute;
+        top: 0;
+        left: 26px;
+    }
+
+
+/* END OF Regular Image Hover */
